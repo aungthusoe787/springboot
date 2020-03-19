@@ -1,0 +1,23 @@
+##### Routing System #####
+Created OrderAPIController, OrderController
+==========================================
+1) OrdersAPIController
+
+ URL ===> http://localhost:8080/attach_vehicle_orders
+ 
+ sample output:
+ [{"orderId":1,"productId":1,"areaName":"Jagatpura","vehicleId":3},
+{"orderId":2,"productId":1,"areaName":"Sidharth Nager","vehicleId":2},
+{"orderId":3,"productId":2,"areaName":"Jagatpura","vehicleId":3}]
+
+URL ===> http://localhost:8080/attach_vehicle_orders/1
+
+sample output:
+{"orderId":1,"productId":1,"areaName":"Jagatpura","vehicleId":1}
+==========================================
+2) OrderController (UI)
+URL ===> http://localhost:8080/order_list
+ *View Order List
+
+http://localhost:8080/order_detail/1
+ *View Order Details By order id
